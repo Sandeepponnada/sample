@@ -6,5 +6,5 @@ st.title("Student Management System")
 st.sidebar.title("Fee Management System")
 
 st.sidebar.subheader("Menu")
-radio_value = st.siderbar.radio("Choose an option:", ["Option 1", "Option 2", "Option 3"])
+radio_value = st.siderbar.radio("Choose an option:", ["add student", "delete student", "view fee","pay fee"])
 
