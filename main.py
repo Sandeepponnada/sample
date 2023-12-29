@@ -4,7 +4,7 @@ import numpy as np
 st.set_page_config(layout ="wide")
 st.title("Student Management System")
 st.sidebar.title("Fee Management System")
-st.siderbar.bg_color("black")
+#st.siderbar.bg_color("black")
 st.sidebar.subheader("Menu")
 radio_value = st.sidebar.radio("Choose an option:", ["add student", "delete student", "view fee","pay fee"])
 st.write("You selected:", radio_value)
