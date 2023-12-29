@@ -1,8 +1,19 @@
 import streamlit as st
-st.markdown("This is my first App")
-st.write("Welcome to my Sample Streamlit App. This will bring a positive vibes to learn streamlit.It is a python Libary")
-st.write("<h1>Sandeep</h1>",unsafe_allow_html=True)
-#ing colour of test
-st.write("<h1ss style='color:red;'>Murali Ganesh</h1>",unsafe_allow_html=True)
+
+st.write("<h1>Hello Priya</h1>",unsafe_allow_html=True)
+
+#apply style
+st.write("<h1 style='color:blue;'>Hello Priya</h1>",unsafe_allow_html=True)
+
+#upload file
 st.file_uploader("upload file")
 
+#upload image
+st.image("https://img.freepik.com/free-photo/beautiful-rose-nature_23-2150737339.jpg")
+
+#upload video
+st.video("https://www.youtube.com/watch?v=DBlMnnuVBO4")
+
+#taking an image as input and displaying it
+img=st.file_uploader("upload image")
+st.image(img)
