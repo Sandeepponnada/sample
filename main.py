@@ -5,4 +5,5 @@ st.write("<h1>Sandeep</h1>",unsafe_allow_html=True)
 #ing colour of test
 st.write("<h1ss style='color:red;'>Murali Ganesh</h1>",unsafe_allow_html=True)
 st.file_uploader("upload file")
-st.image("data:C:\Users\user\OneDrive\Desktop\mydata\mydata\raw\raw3")
+image=image.open("C:\Users\user\OneDrive\Desktop\mydata\mydata\raw")
+st.image(image)
