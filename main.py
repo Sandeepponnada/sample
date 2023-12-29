@@ -19,3 +19,4 @@ elif radio_value =="view fee":
   view=st.button("view fee")
 elif radio_value=="pay fee":
   Pay=st.button("Pay")
+
